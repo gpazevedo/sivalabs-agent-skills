@@ -5,9 +5,26 @@ It provides a simple and intuitive way to define and run tasks, making it easier
 
 ## Installation
 
+The `task` tool is cross‑platform.  You can install it using the package manager for your OS
+or by downloading the binary directly from the [project site](https://taskfile.dev/).
+
 ```shell
-$ brew install go-task
+# macOS (Homebrew)
+brew install go-task
+
+# Ubuntu / Debian
+sudo apt update
+sudo apt install -y go-task
+
+# Windows (PowerShell)
+# choco install go-task
+# or download and unzip the executable
 ```
+
+The `Taskfile.yml` supplied with the skill relies on the `GOOS` (a.k.a. `OS`) variable to
+detect the platform and adjust the `mvnw` and `sleep` commands accordingly; no manual
+changes are required.
+
 
 ## Taskfile
 
