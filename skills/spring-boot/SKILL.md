@@ -10,6 +10,8 @@ description: >
   Use these best practices while implementing REST APIs, entities/repositories, service layer,
   modular monoliths.
   
+  Use these guidelines while using Thymeleaf view templates for building web applications.
+  
   Use these guidelines while writing tests for REST APIs and Web applications.
 
   Configure the recommended plugins and configurations to improve code quality, and testing while using Maven.
@@ -46,6 +48,10 @@ Implement REST APIs with Spring MVC using [references/spring-webmvc-rest-api.md]
 ## Spring Modulith
 
 Build a modular monolith with Spring Modulith using [references/spring-modulith.md](references/spring-modulith.md).
+
+## Thymeleaf
+
+If Thymeleaf is used for view templates, refer [references/thymeleaf.md](references/thymeleaf.md)
 
 ## REST API Testing
 
